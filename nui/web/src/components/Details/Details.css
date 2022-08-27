@@ -1,0 +1,45 @@
+.container{
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border: 1px solid white;
+    margin-top: 15px;
+}
+
+.menu{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+a{
+    background-color: #1a1f25;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .2px solid white;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+  a:hover {
+    box-shadow: 0 0 20px 20px #0ee98d inset;
+    
+  }
+
+  .active{
+    background-color: #0ee98d;
+  }
+
+  
+
+  /* ---------INFO-------------- */
+
+  .infoElements{
+    display: flex;
+    flex-flow: column wrap;
+  }
