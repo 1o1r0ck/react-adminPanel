@@ -5,6 +5,8 @@
     grid-template-columns: 30% 70%;
     border: 1px solid white;
     margin-top: 15px;
+    height: 300px;
+    overflow: hidden;
 }
 
 .menu{
@@ -40,6 +42,12 @@ a{
   /* ---------INFO-------------- */
 
   .infoElements{
+    height: 100%;
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
+  }
+
+  .info{
+    overflow: auto;
   }
