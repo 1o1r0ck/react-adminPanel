@@ -48,6 +48,7 @@ Bold 700 */
   width: 900px;
   height: 700px;
   color: white;
+  overflow: auto;
 }
 
 header {

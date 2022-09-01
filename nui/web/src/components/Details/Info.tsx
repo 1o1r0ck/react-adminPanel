@@ -1,6 +1,6 @@
-import InfoComp from "../../detailsComponent/Info/InfoComp";
+import InfoComp from "../../pages/Info/InfoComp";
 import './Details.css'
-import { InfoArr  } from "../../detailsComponent/Info/info";
+import { InfoArr  } from "../../pages/Info/info";
 
 const Info = () => {
 

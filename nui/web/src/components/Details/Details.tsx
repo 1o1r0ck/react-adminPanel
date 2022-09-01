@@ -1,6 +1,6 @@
 import "./Details.css";
 import Info from "./Info";
-import Action from "../../detailsComponent/Action";
+import Action from "../../pages/Action";
 import AdminFlex from "../../detailsComponent/AdminFlex";
 import Roles from "../../detailsComponent/Roles";
 import Experemental from "../../detailsComponent/Experemental";

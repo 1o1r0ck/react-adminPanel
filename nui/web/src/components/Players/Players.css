@@ -4,10 +4,10 @@
   grid-template-columns: repeat(5, minmax(0, 1fr));
   margin-top: 15px;
   transition: box-shadow 0.15s ease-in-out, transform 0.2s ease-in-out;
+  overflow: auto;
 }
 
 .users:hover {
-  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
   transform: translateY(-5px);
 }
 
